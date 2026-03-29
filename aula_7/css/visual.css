@@ -1,0 +1,29 @@
+h1, h2 {
+    color: midnightblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p, label, ul, table {
+    color: maroon;
+}
+
+table, th, caption {
+     border: 1px solid maroon;
+}
+
+#midline, #seg, .form {
+    color: darkgoldenrod;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    font-size: 11px;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
